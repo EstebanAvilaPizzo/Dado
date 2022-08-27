@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(182, 189, 94, 1) 37%, rgba(172, 189, 101, 1) 43%, rgba(192, 189, 87, 1) 49%, rgba(199, 189, 83, 1) 57%, rgba(208, 189, 77, 1) 79%, rgba(221, 188, 68, 1) 85%, rgba(227, 188, 63, 1) 88%, rgba(253, 187, 45, 1) 100%);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(182, 189, 94, 1) 37%, rgba(172, 189, 101, 1) 43%, rgba(192, 189, 87, 1) 49%, rgba(199, 189, 83, 1) 57%, rgba(208, 189, 77, 1) 79%, rgba(221, 188, 68, 1) 85%, rgba(227, 188, 63, 1) 88%, rgba(253, 187, 45, 1) 100%);
+}
+
+.contenedor {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background: rgb(39, 32, 168);
+}
+
+.dado {
+    margin: 25px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid goldenrod;
+    background-color: yellow;
+}
+
+.dado:hover {
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+
+.redondo {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#dado1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#redondo1 {
+    position: relative;
+    top: 190px;
+}
+
+#dado2 {
+    position: relative;
+}
+
+#redondo2a {
+    margin: 15px;
+}
+
+#redondo2b {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+#dado3 {
+    position: relative;
+}
+
+#redondo3a {
+    margin: 15px;
+}
+
+#redondo3b {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#redondo3c {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+#dado4 {
+    position: relative;
+}
+
+#redondo4a {
+    margin: 15px;
+}
+
+#redondo4b {
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+
+#redondo4c {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+#redondo4d {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+#dado5 {
+    position: relative;
+}
+
+#redondo5a {
+    margin: 15px;
+}
+
+#redondo5b {
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+
+#redondo5c {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+#redondo5d {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+#redondo5e {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#dado6 {
+    position: relative;
+}
+
+#redondo6a {
+    margin: 15px;
+}
+
+#redondo6b {
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+}
+
+#redondo6c {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+#redondo6d {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+#redondo6e {
+    position: absolute;
+    right: 400px;
+    bottom: 220px;
+}
+
+#redondo6f {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
